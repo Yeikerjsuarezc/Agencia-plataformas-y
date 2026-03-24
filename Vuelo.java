@@ -37,5 +37,14 @@ public class Vuelo {
 
         return true;
     }
+    
+        void buscarVueloPorId(int idBusqueda) {
+        if (this.idVuelos == idBusqueda) {
+            System.out.println("¡Vuelo encontrado!");
+            obtenerVuelo(); // Llama a tu otro método para mostrar los datos
+        } else {
+            System.out.println("El ID " + idBusqueda + " no coincide con este vuelo.");
+        }
+    }
 }
 
