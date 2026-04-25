@@ -8,7 +8,7 @@ public class Vuelo {
         this.nombre = nombre;
         this.telefono = telefono;
         this.hora = hora;
-        this.ubicacion = ubicacion;
+        this.ubicacion = ubicacionn;
     }
 
    
